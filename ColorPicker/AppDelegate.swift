@@ -22,7 +22,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBOutlet var swiftScrollView: NSTextField;
 
-
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
         
@@ -30,15 +29,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         window.backgroundColor = NSColor.whiteColor()
         
         //picker.performClick(nil)
-                println("button tapped!")
     }
 
     func applicationWillTerminate(aNotification: NSNotification?) {
         // Insert code here to tear down your application
-    }
-    
-    @IBAction func buttonTapped(AnyObject) {
-        println("button tapped!")
     }
     
     // This function fires when the user changes the selected
@@ -63,7 +57,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         swiftScrollView.stringValue = "let color = UIColor(red:" + String(r) + "/255.0, green:" + String(r) + "/255.0, blue:" + String(r) + "/255.0, alpha: 1.0)"
     }
-
-
 }
 
