@@ -11,16 +11,16 @@ import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate {
                             
-    @IBOutlet var window: NSWindow
-    @IBOutlet var picker: NSColorWell;
-    @IBOutlet var hex: NSTextField;
-    @IBOutlet var rTextField: NSTextField;
-    @IBOutlet var gTextField: NSTextField;
-    @IBOutlet var bTextField: NSTextField;
+    @IBOutlet var window: NSWindow!
+    @IBOutlet var picker: NSColorWell!
+    @IBOutlet var hex: NSTextField!
+    @IBOutlet var rTextField: NSTextField!
+    @IBOutlet var gTextField: NSTextField!
+    @IBOutlet var bTextField: NSTextField!
     
-    @IBOutlet var objectivecScrollView: NSTextField;
+    @IBOutlet var objectivecScrollView: NSTextField!
     
-    @IBOutlet var swiftScrollView: NSTextField;
+    @IBOutlet var swiftScrollView: NSTextField!
 
     func applicationDidFinishLaunching(aNotification: NSNotification?) {
         // Insert code here to initialize your application
